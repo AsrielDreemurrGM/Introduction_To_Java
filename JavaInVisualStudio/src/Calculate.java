@@ -1,3 +1,5 @@
+package JavaInVisualStudio.src;
+
 public class Calculate {
     public static void main(String[] args) {
         String environment = args[0];
