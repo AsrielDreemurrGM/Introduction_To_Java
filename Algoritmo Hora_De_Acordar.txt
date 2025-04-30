@@ -1,0 +1,25 @@
+Algoritmo "Hora_De_Acordar"
+
+Inicio
+    Despertador do celular toca;
+    Abro os olhos;
+	Se (ainda estou cansado) então
+		Tentar ignorar o despertador e dormir novamente;
+		Dormir por mais 5 minutos;
+		Despertador toca de novo;
+		Verificar a hora;
+	FimSe
+    Se (horário atual < necessário para levantar) então
+        Voltar a dormir por mais 5 minutos;
+        Despertador toca de novo;
+    FimSe
+
+    Sento na cama;
+    Levanto;
+    Vou para o banheiro;
+    Necessidades;
+    Lavo o rosto;
+    Saio do banheiro;
+    Vou para a cozinha;
+    Tomo café da manhã;
+Fim
